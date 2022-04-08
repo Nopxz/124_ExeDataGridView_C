@@ -39,7 +39,6 @@ namespace Exercise2PABD
             this.alamatMhsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sexDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.phoneMhsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.iDUserDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.prodiTIDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource)).BeginInit();
@@ -54,14 +53,13 @@ namespace Exercise2PABD
             this.namaMhsDataGridViewTextBoxColumn,
             this.alamatMhsDataGridViewTextBoxColumn,
             this.sexDataGridViewTextBoxColumn,
-            this.phoneMhsDataGridViewTextBoxColumn,
-            this.iDUserDataGridViewTextBoxColumn});
+            this.phoneMhsDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.mahasiswaBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(252, 205);
+            this.dataGridView1.Location = new System.Drawing.Point(85, 234);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(856, 150);
             this.dataGridView1.TabIndex = 0;
             // 
             // prodiTIDataSet
@@ -81,7 +79,7 @@ namespace Exercise2PABD
             // nIMDataGridViewTextBoxColumn
             // 
             this.nIMDataGridViewTextBoxColumn.DataPropertyName = "NIM";
-            this.nIMDataGridViewTextBoxColumn.HeaderText = "NIM";
+            this.nIMDataGridViewTextBoxColumn.HeaderText = "No. Mahasiswa";
             this.nIMDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.nIMDataGridViewTextBoxColumn.Name = "nIMDataGridViewTextBoxColumn";
             this.nIMDataGridViewTextBoxColumn.Width = 125;
@@ -89,7 +87,7 @@ namespace Exercise2PABD
             // namaMhsDataGridViewTextBoxColumn
             // 
             this.namaMhsDataGridViewTextBoxColumn.DataPropertyName = "NamaMhs";
-            this.namaMhsDataGridViewTextBoxColumn.HeaderText = "NamaMhs";
+            this.namaMhsDataGridViewTextBoxColumn.HeaderText = "Nama Mahasiswa";
             this.namaMhsDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.namaMhsDataGridViewTextBoxColumn.Name = "namaMhsDataGridViewTextBoxColumn";
             this.namaMhsDataGridViewTextBoxColumn.Width = 125;
@@ -97,7 +95,7 @@ namespace Exercise2PABD
             // alamatMhsDataGridViewTextBoxColumn
             // 
             this.alamatMhsDataGridViewTextBoxColumn.DataPropertyName = "AlamatMhs";
-            this.alamatMhsDataGridViewTextBoxColumn.HeaderText = "AlamatMhs";
+            this.alamatMhsDataGridViewTextBoxColumn.HeaderText = "Alamat Mahasiswa";
             this.alamatMhsDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.alamatMhsDataGridViewTextBoxColumn.Name = "alamatMhsDataGridViewTextBoxColumn";
             this.alamatMhsDataGridViewTextBoxColumn.Width = 125;
@@ -105,32 +103,25 @@ namespace Exercise2PABD
             // sexDataGridViewTextBoxColumn
             // 
             this.sexDataGridViewTextBoxColumn.DataPropertyName = "Sex";
-            this.sexDataGridViewTextBoxColumn.HeaderText = "Sex";
+            this.sexDataGridViewTextBoxColumn.HeaderText = "Jenis Kelamin";
             this.sexDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.sexDataGridViewTextBoxColumn.Name = "sexDataGridViewTextBoxColumn";
             this.sexDataGridViewTextBoxColumn.Width = 125;
             // 
             // phoneMhsDataGridViewTextBoxColumn
             // 
+            this.phoneMhsDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.phoneMhsDataGridViewTextBoxColumn.DataPropertyName = "PhoneMhs";
-            this.phoneMhsDataGridViewTextBoxColumn.HeaderText = "PhoneMhs";
+            this.phoneMhsDataGridViewTextBoxColumn.HeaderText = "No. Telepon";
             this.phoneMhsDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.phoneMhsDataGridViewTextBoxColumn.Name = "phoneMhsDataGridViewTextBoxColumn";
-            this.phoneMhsDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // iDUserDataGridViewTextBoxColumn
-            // 
-            this.iDUserDataGridViewTextBoxColumn.DataPropertyName = "IDUser";
-            this.iDUserDataGridViewTextBoxColumn.HeaderText = "IDUser";
-            this.iDUserDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.iDUserDataGridViewTextBoxColumn.Name = "iDUserDataGridViewTextBoxColumn";
-            this.iDUserDataGridViewTextBoxColumn.Width = 125;
+            this.phoneMhsDataGridViewTextBoxColumn.Width = 106;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1224, 450);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -153,7 +144,6 @@ namespace Exercise2PABD
         private System.Windows.Forms.DataGridViewTextBoxColumn alamatMhsDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn sexDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn phoneMhsDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDUserDataGridViewTextBoxColumn;
     }
 }
 
