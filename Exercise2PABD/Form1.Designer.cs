@@ -55,11 +55,11 @@ namespace Exercise2PABD
             this.sexDataGridViewTextBoxColumn,
             this.phoneMhsDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.mahasiswaBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(85, 234);
+            this.dataGridView1.Location = new System.Drawing.Point(117, 214);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(856, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(902, 211);
             this.dataGridView1.TabIndex = 0;
             // 
             // prodiTIDataSet

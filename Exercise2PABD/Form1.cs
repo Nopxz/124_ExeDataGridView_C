@@ -25,11 +25,16 @@ namespace Exercise2PABD
             //membuat tulisan header tabel bold (tebal)
             dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font(dataGridView1.ColumnHeadersDefaultCellStyle.Font, FontStyle.Bold);
 
+            //membuat background pada isi tabel
             this.dataGridView1.Columns[0].DefaultCellStyle.SelectionBackColor = Color.Pink;
             this.dataGridView1.Columns[1].DefaultCellStyle.SelectionBackColor = Color.Orange;
             this.dataGridView1.Columns[2].DefaultCellStyle.SelectionBackColor = Color.Green;
             this.dataGridView1.Columns[3].DefaultCellStyle.SelectionBackColor = Color.Blue;
             this.dataGridView1.Columns[4].DefaultCellStyle.SelectionBackColor = Color.Maroon;
+
+            //mengubah posisi text pada header dan isi tabel Jenis Kelamin ke tengah
+            this.dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridView1.Columns[3].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
         }
     }
 }
