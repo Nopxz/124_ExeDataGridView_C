@@ -45,5 +45,10 @@ namespace Exercise2PABD
             this.dataGridView1.BackgroundColor = Color.Black;
 
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
