@@ -55,7 +55,7 @@ namespace Exercise2PABD
             this.sexDataGridViewTextBoxColumn,
             this.phoneMhsDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.mahasiswaBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(116, 143);
+            this.dataGridView1.Location = new System.Drawing.Point(105, 162);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -120,7 +120,8 @@ namespace Exercise2PABD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1224, 450);
+            this.BackColor = System.Drawing.SystemColors.Desktop;
+            this.ClientSize = new System.Drawing.Size(1224, 469);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form1";
             this.Text = "Form1";
