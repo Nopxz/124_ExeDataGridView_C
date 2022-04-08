@@ -35,6 +35,13 @@ namespace Exercise2PABD
             //mengubah posisi text pada header dan isi tabel Jenis Kelamin ke tengah
             this.dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             this.dataGridView1.Columns[3].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+
+            //mengganti warna font isi tabel
+            this.dataGridView1.Columns[0].DefaultCellStyle.ForeColor = Color.Purple;
+            this.dataGridView1.Columns[1].DefaultCellStyle.ForeColor = Color.DarkBlue;
+            this.dataGridView1.Columns[2].DefaultCellStyle.ForeColor = Color.CadetBlue;
+            this.dataGridView1.Columns[3].DefaultCellStyle.ForeColor = Color.Green;
+            this.dataGridView1.Columns[4].DefaultCellStyle.ForeColor = Color.DarkRed;
         }
     }
 }
